@@ -1,0 +1,38 @@
+settengs:
+  group_id: 564855444
+  group_token: rtyjrtyj
+  mysql:
+    url: 'jdbc:mysql://194.147.90.211:3306/test1'
+    user: rtyjrtyjrtyj
+    password: wrgpei0rgwqergiwqe809rg
+vk:
+  haventaccept: 'Нет активного запроса на подтверждение'
+  access:
+    text: '&cAUTH &e> &fВы получили запрос на привязку аккаунта к странице от (&9$name&f).'
+    accept: '&aПринять'
+    decline: '&cОтклонить'
+  events:
+    connect: 'привязать'
+    disconnect: 'отвязать'
+    recover: 'восстановить'
+  disconnect: 'Страница успешно отвязана от аккаунта.'
+  connect:
+    help: 'Для привязки используйте: Привязать [ник]'
+    haveconnect: 'Ваша страница уже привязана к нику $player'
+    haventconnect: 'Ваша страница не привязана к аккаунту'
+    send: 'Подтвердите привязку в на сервере.'
+    accept: 'Запрос принят. Аккаунт привязан. Отвязать - позволяет отвязать аккаунт от вашей страницы. Восстановить - генерирует новый пароль'
+    decline: 'Запрос отклонён. Аккаунт не привязан.'
+messages:
+  phone:
+    good: '&cAUTH &e> &fПривязка принята'
+    bad: '&cAUTH &e> &fКод указан не верно'
+    error: '&cAUTH &e> &f$msg'
+  vk:
+    accept: '&cAUTH &e> &fПривязка принята'
+    decline: '&cAUTH &e> &fПривязка отклонена'
+    empty: '&cAUTH &e> &fУ вас нет запросов на привязку'
+  reference:
+    - '&cAUTH &e> &fУ вас нет активной привязки к ВКонтакте'
+    - '&cAUTH &e> &fДля привязки перейдите в группу rjkrytuyktyuk'
+    - '&cAUTH &e> &fНапишите: &eПривязать $player'

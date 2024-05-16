@@ -1,0 +1,5 @@
+name: LuckyAuthServer
+version: ${project.version}
+main: LuckyAuthServer.main
+commands:
+  luckyauth:
